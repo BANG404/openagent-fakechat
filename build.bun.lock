@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "claude-channel-fakechat",
+      "name": "openagent-fakechat",
       "dependencies": {
         "@modelcontextprotocol/sdk": "1.29.0",
         "ws": "8.18.3",
