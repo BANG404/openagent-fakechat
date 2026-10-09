@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
+  "path": "external_plugins/fakechat",
+  "source_sha256": "a06034bbe7b0f5fb57e3f8fe8d847770e53005fa57be133335b2350c131430be",
+  "artifacts": {
+    "channel.mjs": "1d2de1ff4a1b91088ad0aad2f56acc6579be07d7be6794e6437a4a5f9cc89655",
+    "command.mjs": "98a4b32efd27bd5d21db1e366531c78a95920616570cc676ce51f6036f8bb6ad",
+    "integration.mjs": "d5a17c6fef5f0abbc8950e7988dc0ec13c343c15a44770dfcf9a8b529511766c",
+    "status.mjs": "db08b2ec3d5c5de96b264cb54b90fa34b76a9156d0219d084317a8769b76f118",
+    "unavailable.mjs": "05ccc0cc18e2689daba3b9e1b65cbcb9a9ecbb5ae7e7fa82f04684649897bbff"
+  }
+}

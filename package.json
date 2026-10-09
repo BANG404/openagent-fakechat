@@ -1,0 +1,14 @@
+{
+  "name": "openagent-fakechat",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "ws": "8.18.3"
+  },
+  "scripts": {
+    "test": "bun test tests",
+    "build": "bun scripts/build.mjs"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "revision": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
+  "prerequisites": [
+    "Node.js and a free loopback port (default 8787); run the desktop start command before sending messages."
+  ]
+}
