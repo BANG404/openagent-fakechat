@@ -4,11 +4,15 @@ Local web chat for exercising OpenAgent message channels.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
+## Plugin settings
+
+Requires a Runtime with the configuration-v1 feature. Open Integrations → Plugins → this plugin to save parameters and credentials. Password fields show only whether a token exists; leave blank to keep it, or explicitly clear and save. OAuth HTTP connectors offer Test, Authorize and local Disconnect here. These operations preserve package data and existing credential files. Running daemons need a restart after changing settings. Actual account operations still require provider-specific acceptance.
+
 ## Setup
 
 - Node.js and a free loopback port (default 8787); run the desktop start command before sending messages.
 
-Run /fakechat:setup. Package state and credentials belong in the active OpenAgent home at plugin-data/fakechat/. Never place secrets in plugin.json or commit them. Refresh the plugin after changing credentials.
+Run /fakechat:setup. Package state belongs in plugin-data/fakechat/; private settings and credentials are stored by the Runtime in plugin-settings/fakechat.json. Never place secrets in plugin.json or commit them. Refresh the plugin after changing credentials.
 
 Run /fakechat:start in a local desktop conversation. channel_bind saves that owner and workspace. Approved inbound peers get separate durable child conversations; replies use the upstream reply tool. Use channel_unbind from the owner to stop dispatch. Access state is plugin-data/fakechat/channel/access.json. Remote messages cannot change access policy or resolve OpenAgent approvals; resolve approvals in the desktop. Pending dispatch failures are logged by the adapter. Delivery deduplication retains the latest 1000 dispatched message IDs; crash recovery has at-least-once semantics.
 
