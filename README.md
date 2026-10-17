@@ -1,6 +1,6 @@
-# fakechat for OpenAgent
+# Local Channel Test
 
-Local web chat for exercising OpenAgent message channels.
+Use a local web chat to test incoming messages, agent replies, and message-channel access rules.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
@@ -24,6 +24,6 @@ Bundled tests cover immutable artifacts, config conversion and peer isolation, d
 
 ## 中文
 
-用于验证 OpenAgent 消息通道的本地网页聊天。 安装发布包后运行 /fakechat:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/fakechat/ 下，修改后刷新插件。在本机管理会话运行 /fakechat:start 完成绑定；远程消息不能更改访问权限。
+通过本地网页聊天，测试消息接收、智能体回复和消息通道访问规则。 安装发布包后运行 /fakechat:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/fakechat/ 下，修改后刷新插件。在本机管理会话运行 /fakechat:start 完成绑定；远程消息不能更改访问权限。
 
 Upstream source and exact revision are recorded in provenance.json. Bundled source remains available for inspection.

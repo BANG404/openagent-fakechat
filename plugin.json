@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "fakechat",
-  "version": "0.2.0",
-  "description": "Local web chat for exercising OpenAgent message channels.",
+  "version": "0.2.1",
+  "description": "Use a local web chat to test incoming messages, agent replies, and message-channel access rules.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/anthropics/claude-plugins-official/tree/ac996c0dde7fb2a9f805cd5277ffc95ecd44a321/external_plugins/fakechat",
   "repository": "https://github.com/BANG404/openagent-fakechat",
@@ -58,8 +58,8 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "fakechat",
-            "description": "Local web chat for exercising OpenAgent message channels.",
+            "display_name": "Local Channel Test",
+            "description": "Use a local web chat to test incoming messages, agent replies, and message-channel access rules.",
             "commands.setup.label": "Setup",
             "commands.setup.description": "Review connection prerequisites",
             "commands.start.label": "Start channel",
@@ -69,8 +69,8 @@
             "configuration.port.label": "Local chat port"
           },
           "zh": {
-            "display_name": "fakechat",
-            "description": "用于验证 OpenAgent 消息通道的本地网页聊天。",
+            "display_name": "本地通道测试",
+            "description": "通过本地网页聊天，测试消息接收、智能体回复和消息通道访问规则。",
             "commands.setup.label": "配置",
             "commands.setup.description": "查看连接要求",
             "commands.start.label": "启动通道",
